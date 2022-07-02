@@ -1,0 +1,274 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="DRASHTI">
+        <meta name="description" content="The basics of HTML that i am learning before making my portofilo project.">
+        <title>My first HTML page</title>
+        <link rel="icon" href="drashti1.jpg">
+    </head>        
+        <body>
+            <header>
+            <h1>This is a Hello to the world of HTML for me!</h1>
+            <img src="img/drashti1.jpg" alt="Drashti smiling" title="first image in the file" width="250" height="350">
+            
+
+            <nav>
+                <ul>
+                    <li>
+                    <a href="#projects">projects</a>
+                    </li>
+                    <li>
+                        <a href="#not_visit">Places to avoid</a>
+                        </li>
+                    <li>
+                    <a href="#contact_me">contact me</a>
+                    </li>
+                </ul>
+            </nav>
+            </header>
+            <hr>
+        <main>
+            <section>
+            <h2>less gooo!!!</h2>
+            <p>This is my first html page.</p>
+            <hr>
+            <h3>My goal is to learn the basics today itself!</h3>
+            <p>This is funn way to learn html. I will try to complete this is soon as i can!
+            <figure>
+            <img src="img/drashti2.jpg" alt="drashit smiling" title="drashti near mall decoration" width="300" height="400" loading="lazy">
+            <figcaption>First image.</figcaption>
+            </figure>
+
+            <figure>
+                <code> &lt;h2&gt; Testing the code tag.&lt;/h2&gt; </code> 
+            </figure>    
+                <br><abbr title="HyperText Markup Language">
+                    <a href="https://www.w3schools.com/html/">HTML</a> </abbr> is <em>far more easy</em> 
+                <br>than
+                <br><strong>&nbsp;I thought</strong> it wasssss!
+                <p>I was not able to complete it lol. But, I started to learn JAVASCRIPT. so that's a plus , I think. </p>
+                    <address> Margarticle Last Figur <br> Bahamas I think 
+                    </address>
+                <figure>
+                <img src="img/d4.jpg" alt="drashti" title="another photo of me" width="400" height="400" loading="lazy">
+                <figcaption>a beautiful bangel picture.</figcaption></figure>
+            </section>
+            <h2>Languages i want to learn</h2>
+            
+                <ul><li>Python</li> 
+                <li>Java</li> 
+            </ul>
+            <hr> 
+
+        <article id="projects">  
+            <h2>--</h2>
+            <section>
+            <h2>Things i want to build using python</h2>
+            
+            <ol>
+            <li>a game (like a legit one)</li>
+            <li>A webpage of sorts</li>
+            <li>and a website / app clone <strong>this is the first thing and the most important. i was thinking maybe like a clone of <em> instagram? I dont know really!!!</em></strong></li>   
+            </ol> 
+            <aside>
+                <details>
+                    <summary>
+                        Guess the <mark>number of hours</mark> i will have to spend?
+                    </summary>
+                    <p>The tutorials are quite long <time datetime="PT3H">(4 hours)</time> so i hope to complete it as fast as i can!</p>
+                </details>
+            </aside>
+            <br>
+
+<!--TABLES-->
+        <table>
+                <caption>My schedule</caption>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Morning</th>
+                    <td>
+                        <time datetime="08:00">8am</time>-<time datetime="11:00">11 am</time>
+                    </td>
+                    <td>Write code.</td>
+                </tr>
+                    <tr>
+                            <th scope="row">Afternoon</th>
+                            <td>
+                                <time datetime="11:00">11am</time>-<time datetime="12:30">12:30 pm</time>
+                            </td>
+                            <td>Learn JavaScript.</td>
+                            <tr>
+                                <th scope="row">Break</th>
+                                <td>
+                                    <time datetime="12:30">12:30</time>-<time datetime="13:30">1:30 am</time>
+                                </td>
+                                <td>Eat Lunch.</td>
+                            </tr>
+                    
+                        <tr>
+                            <th scope="row">Night</th>
+                           <td rowspan="1">All the other times.</td> 
+                        <td>Free time</td>
+                        </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+            <td colspan="3">And that is my schedule.Coding regularly is helping me a lot.</td></tr>
+            </tfoot>
+        </table>            
+        </section>
+        </article> 
+            <hr>
+
+            <article id="no_visit">
+                <h2>--</h2>
+                <section>
+            <h2> Places i wish to not visit</h2>
+            
+            <dl> 
+                <dt>The North Pole</dt>
+                <dd>its <strong>cold!</strong></dd>
+                <dt>South Pole</dt>
+                <dd>it is also <strong>cold!</strong></dd>
+                <dt>Mountains</dt>
+                <dd>i am scared of heights</dd>
+            </dl>
+        </section>
+        </article>
+        
+        <hr>
+        <article id="contact_me">
+            <h2>Contact Me</h2>
+            <p> I am really appreciate to know how you feel about this page!</p>
+            <!--Formm-->
+            <form action ="https://httpbin.org/get"
+            method="get">
+            <fieldset>
+                <legend>Personal info</legend>
+            <p>
+                <label for ="name">Name:</label>
+                <input type="text" name="Name" id="name" placeholder="Drashti" autocomplete="on" required autofocus>
+            </p>
+            <p>
+                <label for ="Surname">Surname:</label>
+                <input type="text" name="Surname" id="Surname" placeholder="Shah" autocomplete="on">
+            </p>
+            <p>
+                <label for ="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            </p>
+            <p>
+                <label for ="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="1234567890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+            </p>
+            <p>
+                <label for ="decade">Favorite Decade:</label>
+                <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+            </p>
+            <p>
+                <label for ="drink">Favourite coffee:</label>
+                <select name="drink" id="drink" multiple size="2">
+                    <optgroup label="Coffees">
+                    <option value="regular">Regular Coffee</option>
+                    <option value="iced">Iced Coffee</option></optgroup>
+                <optgroup label="Espresso Drinks">
+                    <option value="latte" selected>Latte</option>
+                    <option value="Grande">Grande Coffee</option>
+                    <option value="cortado">Cortado</option>
+                    <option value="other">other</option></optgroup>
+                </select>
+            </p>
+            <!-- <p>
+                <label for ="drink">Favourite coffee:</label>
+                <input type="text" name="coffee" id="drink" list="coffee-list">
+                    <datalist id ="coffee-list">
+                    <option value="regular">
+                    <option value="iced">
+                    <option value="latte">
+                    <option value="Grande">
+                    <option value="cortado">
+                    <option value="other">
+                    </datalist>
+            </p> -->
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>What is your favoritefood?</legend>
+            <p>
+                <input type="radio" name="food" id="tacos" value="tacos">
+                <label for="tacos">Tacos</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="sandwich" value="tacos">
+                <label for="tacos">Sandwich</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="subway" value="subway">
+                <label for="tacos">Subway</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="frankie" value="frankie">
+                <label for="tacos">frankie</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="Other" value="Other">
+                <label for="tacos">Other</label>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>DO YOU HAVE PETS?</legend>
+            <p>
+                <input type="checkbox" name="pets" id="dogs" value="dog">
+                <label for="dogs">Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="cats" value="cat">
+                <label for="cats">Cat</label>
+            </p>  
+            <p>
+                <input type="checkbox" name="pets" id="parrot" value="parrot">
+                <label for="parrot">Parrot</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="other" value="other">
+                <label for="other">other pet</label>
+            </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Send me a message!</legend>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea name="message" id="message" cols="180" rows="10" placeholder="Your message!"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="POST">Post</button>
+        </form>
+        </article>
+        </main>
+            <hr> 
+
+            <footer>
+                &lt;&lt;&lt; &copy; <a href="about.html">DRASHTI SHAH</a> &gt;&gt;&gt;
+                <p>
+                    <a href="#"></a>   
+            </p>
+            </footer>
+        </body>
+
+</html> 
+
+
