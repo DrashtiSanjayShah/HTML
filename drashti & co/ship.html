@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="DRASHTI SHAH">
+        <meta name="description" content="This is the order page">
+        <link rel="icon" href="logo.png" type="image/png"> 
+        <title> order page </title>
+    </head>
+    <body>
+        <img src="logo.png" alt="" title="logo" width="250" height="250">  
+        <form action="http://httpbin.org/get" method="get">
+
+            <fieldset>
+                <legend>Shipping Information</legend>
+                <p> 
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Drashti" autocomplete="on" required autofocus> 
+                </p>
+                <p> 
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Shah" autocomplete="on" required> 
+                </p>
+                <p> 
+                    <label for="mail">e-mail</label>
+                    <input type="email" name="mail" id="mail" placeholder="abc@gmail.com" autocomplete="on"> 
+                </p>
+                <p> 
+                    <label for="phone">Mobile No.</label>
+                    <input type="tel" name="phone" id="phone" placeholder="1234567890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required> 
+                </p>
+                <p> 
+                    <label for="address">Address</label>
+                    <br>
+                    <textarea name="address" id="address"  autocomplete="on" required rows="16" cols="60"> </textarea>
+                </p>
+
+                    <button type="submit"><strong>Place Order Here</strong></button>
+                    <button type="reset"><strong>Reset</strong></button>
+            </fieldset>
+        </form>
+       
+      
+    
+    </body>
+</html>
